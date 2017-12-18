@@ -1,0 +1,16 @@
+<div class="container" id="bases-popover" v-show="list.length">
+    <div class="well animated"
+         v-for="m in list"
+         v-show="m.show"
+         transition="bounceDU"
+         @mouseover="onMouseover(m)"
+         @mouseleave="onMouseleave(m)">
+        <div class="alert alert-{{ m.type }}" role="alert">
+            <button type="button" class="close" @click.stop.prevent="close(m)">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <!-- <p><i class="{{ m.face }}" v-if="m.face"></i></p> -->
+            <p>{{ m.text }}</p>
+        </div>
+    </div>
+</div>

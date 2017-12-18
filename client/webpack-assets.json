@@ -1,0 +1,9 @@
+{
+  "index": {
+    "js": "/dist/index.bundle.5cf7b770.js",
+    "css": "/dist/index.bundle.5cf7b770.css"
+  },
+  "vendor": {
+    "js": "/dist/vendor.bundle.5cf7b770.js"
+  }
+}
