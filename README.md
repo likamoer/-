@@ -23,4 +23,3 @@
 ### 编译后的文件
 * public
 * build
->>>>>>> xinxi
